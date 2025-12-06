@@ -1,81 +1,69 @@
-SproutFlux — Version 0 (App Skeleton + Core Navigation)
+# 🌱 SproutFlux — Version 0
 
-SproutFlux is an iOS mobile application designed to help The Six Farms efficiently capture, classify, store, and analyze farm waste. The long-term goal is to integrate Azure cloud storage and AI-powered waste classification to replace manual, paper-based waste logging.
+SproutFlux is an iOS mobile application designed to help **The Six Farms** efficiently record, classify, and analyze farm waste. The long-term goal is to replace paper-based waste tracking with an intelligent system that integrates **Azure backend services**, **AI-powered image classification**, and **real-time insights** for farm managers.
 
-Version 0 represents the foundation layer of the app — a runnable, clean UI structure that sets up the navigation and prepares the app for later functionality.
+Version **0** serves as the foundational skeleton of the app — establishing the core navigation structure and visual layout that will evolve into a fully functional system.
 
-What SproutFlux iOS Application Will Eventually Do
+---
 
-SproutFlux is designed to help farm staff and managers:
+## 🚀 App Overview
 
-Log waste events with photos
+SproutFlux is being built to:
 
-Automatically classify waste using Azure AI Vision
+- Capture waste entries quickly and intuitively  
+- Classify waste using **Azure AI Vision**  
+- Store data in **Azure Cosmos DB + Blob Storage**  
+- Provide weekly insights and dashboards  
+- Support staff vs. manager roles  
+- Send notifications when waste exceeds thresholds  
 
-Store waste records in Azure Cosmos DB + Blob Storage
+Version 0 lays the groundwork for all of this.
 
-View weekly waste insights and analytics
+---
 
-Receive notifications when waste exceeds thresholds
+## ✔️ What’s Completed in v0
 
-What’s Completed in v0
+### **Implemented**
+- Clean, runnable SwiftUI application  
+- Consistent color theme (green, farm-inspired)  
+- Tab-based navigation:
+  - **Log Waste** tab  
+  - **Dashboard** tab
+- Placeholder UI screens  
+- Initial project structure ready for MVVM expansion  
 
-Version 0 includes the essential UI skeleton:
+### **Not Implemented Yet**
+*(These will come in later versions)*  
+- Authentication  
+- Waste entry form  
+- Image picker  
+- Azure backend integration  
+- AI image classification  
+- Dashboard charts  
+- Notifications  
+- Manager/staff role separation  
 
-✔️ Implemented
+---
 
-A runnable SwiftUI app with a clean green theme
+## 🖥️ Screens Included in v0
 
-Tab-based navigation
+### **Log Waste (Placeholder)**
+A simple action button preparing for the future data-entry workflow.
 
-Log Waste tab
+### **Dashboard (Placeholder)**
+Area reserved for charts, summaries, and insights.
 
-Dashboard tab
+---
 
-Basic screen layouts
+## 🛠 Tech Stack
+- Swift  
+- SwiftUI  
+- Xcode (iOS 17+)  
+- MVVM-ready project layout  
 
-Placeholder elements to be replaced later
+---
 
-Consistent color scheme, navigation, and structure
-
-❗ Not Implemented Yet (Planned for Later Versions)
-
-Authentication
-
-Waste logging functionality
-
-Azure backend integration
-
-AI image classification
-
-Dashboard analytics
-
-Role-based access
-
-Notifications
-
-🧭 Screens in v0
-Log Waste Screen
-
-Displays a placeholder “Start Logging” button
-
-Sets the stage for the future waste logging workflow
-
-Dashboard Screen
-
-Shows placeholder text “No data yet”
-
-Prepares layout for future data charts
-
-🛠 Tech Stack
-
-Swift, SwiftUI
-
-Xcode (iOS 17+)
-
-MVVM-ready structure
-
-📁 Recommended Folder Structure
+## 📁 Folder Structure
 SproutFlux-v0
  ├── SproutFlux_App_Rajani_Final_Project_V0App.swift
  ├── ContentView.swift
@@ -83,24 +71,8 @@ SproutFlux-v0
  ├── DashboardView.swift
  └── assets/   ← add screenshots here
 
-📸 Screenshots
-
 ![Log Waste Screen](assets/log_waste_v0.png)
 
-🎥 Demo Video
+Demo Video:
 [https://www.youtube.com/watch?v=CoIe2ah7tvA]
 
-
-🗺️ SproutFlux iOS  App Development Roadmap
-
-v1 → Authentication
-
-v2 → Waste list & detail views
-
-v3 → Data entry + validation
-
-v4 → Azure backend (Cosmos DB, Blob Storage, Azure Functions)
-
-v5 → AI Vision + Insights
-
-v6 → Notifications, forecasting, dashboards
